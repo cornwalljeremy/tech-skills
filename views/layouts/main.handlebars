@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Tech Skills</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+  <div class="card">
+    <header>Tech Skills</header>
+    <form method="post" action="/add">
+      <label for="name">Skill Name:</label>
+      <input type="text" name="name">
+      <input type="submit" value="Add">
+    </form>
+    <hr>
+    <header>List of Tech Skills:</header>
+    <div class="skills-list">
+      <ul>
+        {{{body}}}
+      </ul>
+    </div>
+  </div>
+</body>
+
+</html>
